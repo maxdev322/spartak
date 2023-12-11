@@ -1,0 +1,182 @@
+* {
+    /* outline: 1px solid red; */
+}
+
+@media (min-width: 1200px) {}
+
+@media (max-width: 1199px) {}
+
+@media (max-width: 991px) {}
+
+@media (max-width: 770px) {
+    .faq .sec_inner {}
+
+    .faq__item_main {
+        display: grid;
+        grid-template-columns: auto auto;
+        column-gap: 20px;
+    }
+
+    .howto__item_frst_line {
+        display: grid;
+        grid-template-columns: auto 80%;
+        column-gap: 10px;
+    }
+
+    .faq__item_title {
+        font-size: 22px;
+    }
+
+    .faq__item_title {
+        width: 100%;
+    }
+
+    .faq__item_btn {
+        /* width: 100%; */
+    }
+
+    section {
+        padding-top: 80px;
+    }
+
+    .cta {
+        padding-bottom: 80px;
+    }
+
+    .direction__sec_inner_block_invis {
+        display: none;
+    }
+
+    .direction_copy_block {
+        display: none;
+    }
+
+    .price .sec_inner {
+        margin-bottom: 40px;
+    }
+
+    .about__sec_inner_atext {
+        margin-top: -70px;
+        font-size: 24px;
+    }
+
+    .header__nav {
+        display: none;
+    }
+
+    .sec_inner {
+        grid-template-columns: 1fr;
+        column-gap: 0;
+    }
+
+    .sec_desc {
+        grid-template-columns: 1fr;
+    }
+
+    .frst_screen__desc {
+        grid-column-start: 1;
+    }
+
+    .frst_screen__main {
+        grid-column-start: 1;
+    }
+
+    .header .sec_inner {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .sec_title {
+        font-size: 40px;
+    }
+
+    .frst_screen__title {
+        font-size: 50px;
+    }
+
+    .frst_screen__title_block {
+        flex-direction: column-reverse;
+        align-items: start;
+    }
+
+    .main_btn {
+        width: 100%;
+    }
+
+    .about .sec_inner>img {
+        grid-column-start: 1;
+        /* grid-column-end: 2; */
+        width: 100%;
+    }
+
+    .about__prizes {
+        grid-column-start: 1;
+    }
+
+    .about__dn {
+        display: none;
+    }
+
+    .whyus .sec_inner {
+        /* display: block; */
+    }
+
+    .sec_inner .whyus__item:nth-child(3),
+    .sec_inner .whyus__item:nth-child(6) {
+        margin-top: 0;
+    }
+
+    .direction__sec_inner_block img {
+        height: 450px;
+    }
+
+    .sec_desc {
+        column-gap: 0;
+    }
+
+    .swiper {
+        grid-column-start: 1;
+        height: auto;
+    }
+
+    .swiper-slide {
+        display: grid !important;
+        align-items: center !important;
+        justify-content: center !important;
+        height: 100% !important;
+    }
+
+    .swiper-slide img {
+        width: 100%;
+        height: auto;
+    }
+
+    .swiper-slide video {
+        width: 100% !important;
+        height: auto;
+    }
+
+    .footer__block_text {
+        font-size: 24px;
+    }
+
+
+    .footer__block_text a {
+        color: #fff;
+    }
+
+    .footer__block_title {
+        font-size: 20px;
+    }
+
+    .header__inner_tel {
+        display: none;
+    }
+
+    .header__burger {
+        display: grid;
+    }
+}
+
+@media (max-width: 479px) {}
+
+@media (max-width: 320px) {}
