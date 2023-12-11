@@ -258,7 +258,7 @@ section {
 .directions__sec_desc{
     font-size: 22px;
     grid-column-start: 2;
-    grid-column-end: 4;
+    grid-column-end: 4 !important;
 }
 
 .sec_desc {
