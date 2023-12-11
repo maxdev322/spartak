@@ -255,6 +255,10 @@ section {
     gap: 30px;
 }
 
+.directions__sec_desc{
+    font-size: 22px;
+}
+
 .sec_desc {
     margin-bottom: 60px;
 }
