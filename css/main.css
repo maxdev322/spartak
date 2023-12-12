@@ -393,16 +393,16 @@ section {
 }
 
 .about__sec_inner_atext {
-    font-size: 28px;
-    font-weight: 700;
+    font-size: 24px;
+    font-weight: 500;
     line-height: 1.5;
     /* 150% */
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
 
     grid-column-start: 2;
     grid-column-end: 4;
 
-    margin-top: -190px;
+    /* margin-top: -190px; */
     padding-left: 20px;
 }
 

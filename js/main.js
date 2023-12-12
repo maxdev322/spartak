@@ -83,4 +83,15 @@ $(document).ready(function () {
     // Устанавливаем полученное значение как текст в этот элемент
     abonsCountElement.textContent = result;
 
+
+    gsap.from(".price__sec_inner_block", {
+        scrollTrigger: {
+            trigger: '.price',
+            start: '30% center'
+        },
+        scale: 0.9,
+        duration: 4,
+        ease: "elastic.out"
+    });
+
 })
