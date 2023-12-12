@@ -269,8 +269,6 @@ section {
     margin-bottom: 0;
 }
 
-.direction__sec_inner_block {}
-
 .direction__sec_inner_block_desc {
     padding: 10px 15px;
     border: 1px solid #CECECE;
@@ -915,6 +913,8 @@ section {
     font-size: 24px;
 
     margin-bottom: 26px;
+
+    line-height: 1.4;
 }
 
 .stock__line span {
