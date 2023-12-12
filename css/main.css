@@ -897,7 +897,11 @@ section {
     margin-bottom: 60px;
 }
 
-.stock__title>.marquee3k__wrapper>.marquee3k__copy {
+.stock__title * {
+    display: inline-block;
+}
+
+.stock__title>.marquee3k__wrapper>h2 {
     padding-right: 30px;
 }
 

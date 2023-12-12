@@ -67,4 +67,20 @@ $(document).ready(function () {
         $('.header__burger').toggleClass('active')
         $('.header__burger_wrap').toggleClass('active')
     })
+
+    // Получаем текущую дату
+    let currentDate = new Date();
+
+    // Получаем текущее число месяца
+    let currentDayOfMonth = currentDate.getDate();
+
+    // Вычисляем значение по формуле
+    let result = 70 - (currentDayOfMonth + 2);
+
+    // Находим элемент с классом stock__abons_count
+    let abonsCountElement = document.querySelector('.stock__abons_count');
+
+    // Устанавливаем полученное значение как текст в этот элемент
+    abonsCountElement.textContent = result;
+
 })
