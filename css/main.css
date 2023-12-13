@@ -682,6 +682,7 @@ section {
 }
 
 .partners__marq_wrap h1 {
+    display: inline-flex !important;
     align-items: center;
 }
 
@@ -890,6 +891,7 @@ section {
 
 .stock__title {
     width: 100%;
+    text-align: center;
     color: #D9434F;
     font-family: Russo One;
     font-size: 60px;
